@@ -1,4 +1,4 @@
-import "./styles/main.css";
+//import "./styles/main.css";
 import "./image/webpack-logo.png";
 import "./styles/main.scss";
 
