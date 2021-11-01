@@ -1,4 +1,5 @@
-import "./image/logo1.png";
+import "./image/logo.png";
+import "./image/start_content.jpg";
 import "./styles/main.scss";
 
 

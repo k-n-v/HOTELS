@@ -24,32 +24,39 @@ main {
 header {
     display: flex;
     justify-content: space-between;
-    //padding: 20px;
-    background: red;
+    flex-wrap: nowrap;
     width: 1440px;
     height: 70px;
 }
+
 .logo {
-    
+    background-image: url("../image/logo.png");
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 110px;
+    margin-left: 140px;
+    margin-top: 15px;
+    color: black;
 }
 
-.logo_text {
-    
+.navigation {
+    width: 446px;
+    font: 14px "Montserrat-Regular", sans-serif;
+    color: rgba(31,32,65,0.5);
 }
 
-nav {
-    
-}
 .top-menu {
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
     height: 100%;
+    
     .top-menu_item {
         list-style-type: none;
         padding: 20px 10px;
         margin-left: 5px;
+       
        
     }
 }
@@ -69,11 +76,7 @@ nav {
     background-size: cover;
 }
 
-.logo {
-    background-image: url("../image/logo1.png");
-    height: 40px;
-    width: 40px;
-}
+
 
 
 
