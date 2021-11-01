@@ -7,9 +7,10 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
+    context: path.resolve(__dirname, 'src'),
     mode: 'development',
     entry: {
-       main: './src/index.js'
+       main: './index.js'
     },
     output: {
         filename: '[name].[contenthash].js',
@@ -21,12 +22,12 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin({
-            template: './src/index.pug',
+            template: './index.pug',
             filename: "index.html"
         }),
         new CleanWebpackPlugin(),
         new MiniCssExtractPlugin({
-            filename: '[name].[contenthash].css'
+            filename: '[name].[contenthash].scss',
         }),
         
     ],

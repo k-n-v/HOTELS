@@ -6,45 +6,74 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
-}
-.container {
-    padding-top: 2rem;
-    min-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    text-align: center;
+a {
+    text-decoration: none;
+    
+}
+
+main {
+    display: grid;
+    grid-template-rows: 70px auto 440px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    //padding: 20px;
+    background: red;
+    width: 1440px;
+    height: 70px;
+}
+.logo {
+    
+}
+
+.logo_text {
+    
+}
+
+nav {
+    
+}
+.top-menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    .top-menu_item {
+        list-style-type: none;
+        padding: 20px 10px;
+        margin-left: 5px;
+       
+    }
+}
+
+.entrance {
+    
+}
+.register {
+    
+}
+
+
+.conteiner {
+    width: 1440px;
+    height: 961px;
+    background-image: url(../image/start_content.jpg);
+    background-size: cover;
 }
 
 .logo {
-    background-image: url("../image/webpack-logo.png");
-    background-size: cover;
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-    border: blue solid 2px;
+    background-image: url("../image/logo1.png");
+    height: 40px;
+    width: 40px;
 }
 
-.card {
-    padding: 1rem;
-    border-radius: 5px;
-    margin-top: 1rem;
-    border: $border;
 
-    h2{
-        text-align: center;
-        color: darkred;
-    }
-}
 
-.cath {
-    margin: 0 auto;
-    border:$border;
-
-    h3,h4 {
-        text-align: center;
-        color: red;
-    }
-}
