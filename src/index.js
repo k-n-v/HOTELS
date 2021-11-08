@@ -1,5 +1,6 @@
 import "./image/logo.png";
 import "./image/start_content.jpg";
+import "./image/vectors/expand_more.png"
 import "./styles/main.scss";
 
 
