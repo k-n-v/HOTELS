@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -42,8 +43,8 @@ header {
 }
 
 .navigation {
-    width: 446px;
-    height: 18px;
+    width: 546px;
+    height: 24px;
     font: 14px "Montserrat-Regular", sans-serif;
     margin: 1.625rem 1.25rem 1.25rem 17.875rem;
 }
@@ -55,24 +56,52 @@ header {
     margin: 0;
     padding: 0;
     height: 100%;
+    //height: 24px;
     
     .top-menu_item {
         list-style-type: none;
         padding-right: 26px;
+        height: 24px;
+        margin-right: 20px;
         //padding: 20px 10px;
         //margin-left: 5px;
             a {
                 color:$dark;
+                position: relative;
+                height: 24px;
             }
        
     }
 }
 
-.entrance {
-    
+
+.fa-angle-down {
+    position: absolute;
+    color: $dark;
+    top: 0;
+    left: 49px;
+    border: 1px solid #000;
+    width: 24px;
+    height: 21px;
+    font-size: 24px;
 }
-.register {
-    
+
+.entrance {
+    width: 87px;
+    height: 34px;
+    margin: 18px 20px;
+    .button_entrance {
+        width: 87px;
+        height: 34px;
+        border-radius: 22px;
+        border-width: 4px;
+        padding: 0;
+        border-image-slice: 1;
+        border-image: linear-gradient(top bottom, rgba(188, 156, 255, 1), rgba(139, 164, 249, 1));
+            a {
+                background: #fff;
+            }
+    }
 }
 
 
