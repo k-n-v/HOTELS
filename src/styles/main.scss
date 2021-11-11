@@ -8,12 +8,10 @@ body {
     padding: 0;
     width: 100%;
     box-sizing: border-box;
-
 }
 
 a {
     text-decoration: none;
-    
 }
 
 main {
@@ -45,32 +43,28 @@ header {
 .navigation {
     width: 546px;
     height: 24px;
-    font: 14px "Montserrat-Regular", sans-serif;
     margin: 1.625rem 1.25rem 1.25rem 17.875rem;
 }
 
 .top-menu {
     display: flex;
-    //flex-flow: row wrap;
     align-items: center;
     margin: 0;
     padding: 0;
     height: 100%;
-    
     .top-menu__item {
         list-style-type: none;
-        
         height: 24px;
         margin-right: 20px;
             a {
                 color:$dark;
-                position: relative;
+                font: 14px "Montserrat-Regular", sans-serif;
                 height: 24px;
-                   
             }
-       
     }
 }
+
+
 .top-menu__arrow {
     position: relative;
     padding-right: 26px;
@@ -84,8 +78,19 @@ header {
     height: 21px;
     width: 24px;
     background-image: url(../image/arrow.svg);
-    
 } 
+
+
+.arrow2 {
+    position: absolute;
+    top: 0;
+    left: 89px;
+    background-position: 50%;
+    margin-left: 5px;
+    height: 21px;
+    width: 24px;
+    background-image: url(../image/arrow.svg); 
+}
 
 
 .entrance {
