@@ -56,35 +56,37 @@ header {
     margin: 0;
     padding: 0;
     height: 100%;
-    //height: 24px;
     
-    .top-menu_item {
+    .top-menu__item {
         list-style-type: none;
-        padding-right: 26px;
+        
         height: 24px;
         margin-right: 20px;
-        //padding: 20px 10px;
-        //margin-left: 5px;
             a {
                 color:$dark;
                 position: relative;
                 height: 24px;
+                   
             }
        
     }
 }
-
-
-.fa-angle-down {
-    position: absolute;
-    color: $dark;
-    top: 0;
-    left: 49px;
-    border: 1px solid #000;
-    width: 24px;
-    height: 21px;
-    font-size: 24px;
+.top-menu__arrow {
+    position: relative;
+    padding-right: 26px;
 }
+.arrow {
+    position: absolute;
+    top: 0;
+    left: 46px;
+    background-position: 50%;
+    margin-left: 5px;
+    height: 21px;
+    width: 24px;
+    background-image: url(../image/arrow.svg);
+    
+} 
+
 
 .entrance {
     width: 87px;

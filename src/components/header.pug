@@ -1,20 +1,33 @@
 header
     div.logo 
     nav.navigation 
-        ul.top-menu
-            li.top-menu_item
+        div.navigation__menu
+            a(href="#") О нас
+            div.arrow
+        div.navigation__menu
+            a(href="#") Услуги
+        div.navigation__menu
+            a(href="#") Вакансии
+        div.navigation__menu
+            a(href="#") Новости
+        div.navigation__menu
+            a(href="#") Соглашения
+            div.arrow
+        //ul.top-menu
+            li.top-menu__item
                 a(href='#') О нас
-            li.top-menu_item 
+            li(class="top-menu__item" class="top-menu__arrow") 
                 a(href='#') Услуги
-                    span(class="fa", class="fa-angle-down", aria-hidden="true")
-            li.top-menu_item 
+                div.arrow
+            li.top-menu__item 
                 a(href='#') Вакансии
-            li.top-menu_item 
+            li.top-menu__item 
                 a(href='#') Новости
-            li.top-menu_item 
+            li(class="top-menu__item" class="top-menu__arrow") 
                 a(href='#') Соглашения
+                div.arrow
     div.entrance
-        button.button_entrance 
+        button.button__entrance 
             a(href='#') Войти
     div.button.register
-        button.button_register Зарегистрироваться
+        button.button__register Зарегистрироваться
